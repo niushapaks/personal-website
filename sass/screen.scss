@@ -14,6 +14,9 @@ h1{
 }
 
 #page_bloc {
+    h1{
+        font-size: 5em;
+    }
     box-sizing: border-box;
     max-width: 900px;
     margin: auto;
@@ -21,18 +24,54 @@ h1{
 
 header, #links {
     padding: 50px;
-    display: inline-block;
+    display: block;
 }
 
-ul{
-    display: inherit;
-    padding: inherit;
-    li{
-        position: relative;
-        display: inline-block;
-        img{
-            //width: 100px;
-            height: 110px;
+#links{
+    ul{
+        display: inherit;
+        padding: inherit;
+        li{
+            display: inline-block;
+            img{
+                width: 110px;
+            }
+            span{
+                display: none;
+            }
         }
     }
 }
+
+@media all and (max-width: 900px)
+{
+    #page_bloc{
+        h1{
+            font-size: 2.3em;
+        }
+        width: auto;
+    }
+    header, #links{
+        padding: 0px;
+    }
+    #links{
+        ul{
+
+            li{
+                display: block;
+                height: 70px;
+                img{
+                    width: 70px;
+                }
+                span{
+                    position: absolute;
+                    margin-top: 25px;
+                    margin-left: 10px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+
