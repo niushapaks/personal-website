@@ -66,3 +66,41 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 8, ../sass/screen.scss */
+body {
+  font: 100% Calibri, sans-serif;
+}
+
+/* line 12, ../sass/screen.scss */
+h1 {
+  font-size: 5em;
+}
+
+/* line 16, ../sass/screen.scss */
+#page_bloc {
+  box-sizing: border-box;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* line 22, ../sass/screen.scss */
+header, #links {
+  padding: 50px;
+  display: inline-block;
+}
+
+/* line 27, ../sass/screen.scss */
+ul {
+  display: inherit;
+  padding: inherit;
+}
+/* line 30, ../sass/screen.scss */
+ul li {
+  position: relative;
+  display: inline-block;
+}
+/* line 33, ../sass/screen.scss */
+ul li img {
+  height: 110px;
+}

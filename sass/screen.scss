@@ -5,3 +5,34 @@
 
 @import "compass/reset";
 
+body{
+    font: 100% Calibri, sans-serif;
+}
+
+h1{
+    font-size: 5em;
+}
+
+#page_bloc {
+    box-sizing: border-box;
+    max-width: 900px;
+    margin: auto;
+}
+
+header, #links {
+    padding: 50px;
+    display: inline-block;
+}
+
+ul{
+    display: inherit;
+    padding: inherit;
+    li{
+        position: relative;
+        display: inline-block;
+        img{
+            //width: 100px;
+            height: 110px;
+        }
+    }
+}
