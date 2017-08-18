@@ -5,6 +5,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {HelloComponent} from './hello/hello';
 import {HomeComponent} from './home/home';
 import {NavBarComponent} from './navbar/navbar';
+import {CVComponent} from './cv/cv';
 
 @Component({
   selector: 'root',
@@ -20,6 +21,10 @@ export const routes: Routes = [
   {
     path: '',
     component: HomeComponent
+  },
+  {
+      path: 'cv',
+      component: CVComponent
   }
 ];
 

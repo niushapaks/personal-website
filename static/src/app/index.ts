@@ -4,6 +4,7 @@ import {routing, RootComponent} from './routes';
 
 import {HelloComponent} from './hello/hello';
 import {HomeComponent} from './home/home';
+import {CVComponent} from './cv/cv';
 import {NavBarComponent} from './navbar/navbar';
 
 @NgModule({
@@ -15,6 +16,7 @@ import {NavBarComponent} from './navbar/navbar';
     RootComponent,
     HelloComponent,
     HomeComponent,
+    CVComponent,
     NavBarComponent
   ],
   bootstrap: [RootComponent, NavBarComponent]

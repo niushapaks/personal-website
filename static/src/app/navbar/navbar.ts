@@ -13,5 +13,6 @@ export class NavBarComponent {
 
     this.routes.push(new Nav('', 'Home'));
     this.routes.push(new Nav('hello', 'Hello'));
+    this.routes.push(new Nav('cv', 'CV'));
   }
 }
