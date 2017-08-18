@@ -7,6 +7,6 @@ export class HelloComponent {
   public hello: string;
 
   constructor() {
-    this.hello = 'Hey.';
+    this.hello = 'Hey';
   }
 }

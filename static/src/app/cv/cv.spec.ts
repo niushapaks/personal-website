@@ -1,6 +1,6 @@
 /// <reference path="../../../typings/index.d.ts"/>
 
-import {CVComponent} from './hello';
+import {CVComponent} from './cv';
 import {TestBed, async} from '@angular/core/testing';
 
 describe('cv component', () => {

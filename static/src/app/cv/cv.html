@@ -4,6 +4,16 @@
     <title></title>
 </head>
 <body>
-    <p>{{hello}}</p>
+    <div class="container">
+        <p>{{hello}}</p>
+        <h1>Formations</h1>
+        <ul>
+            <li *ngFor="let formation of formations">
+              <h2><span class="glyphicon glyphicon-book"></span> {{formation.title}}</h2>
+              <p>{{formation.organization}}</p>
+              <i>{{formation.location}}</i>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
